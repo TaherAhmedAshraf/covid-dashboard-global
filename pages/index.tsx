@@ -11,7 +11,6 @@ import {
   InputLabel,
   Select,
   MenuItem,
-  OutlinedInput,
 } from "@material-ui/core";
 import { useTheme } from "@emotion/react";
 
@@ -106,6 +105,7 @@ export default function Index({ data }: any) {
           }}
         >
           <MenuItem value="global">Global</MenuItem>
+          {/* @ts-ignore */}
           {data.Countries.map((country, index) => (
             <MenuItem key={country.Country} value={index}>
               {country.Country}
