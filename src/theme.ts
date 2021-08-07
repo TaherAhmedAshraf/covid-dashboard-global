@@ -17,10 +17,11 @@ const theme = createTheme({
     },
     background:{
       default:"#1A2649",
-      paper:"#fafafa"
+      paper:"#1A2649"
     },
     text:{
-      primary:"#fff"
+      primary:"#fff",
+      secondary:"#ddd"
     }
   },
   typography:{
